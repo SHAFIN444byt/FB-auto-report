@@ -21,11 +21,11 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 # Prompt the user for email and password
-email = input("Enter your email or phone number: ")
-password = input("Enter your password: ")
+email = input("Enter your email or phone number:01997284687 ")
+password = input("Enter your password:@@@ARIYA ")
 
 # Prompt the user for the account URL and number of reports
-account_url = input("Enter the account URL you want to report: ")
+account_url = input("Enter the account URL you want to report:https://www.facebook.com/profile.php?id=61578892173640 ")
 report_count = int(input("Enter the number of reports you want to send: "))
 
 chrome_options = webdriver.ChromeOptions()
