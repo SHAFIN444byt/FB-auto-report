@@ -1,4 +1,4 @@
-banner = '''
+m banner = '''
 ░██████╗██╗░░██╗░█████╗░██████╗░░█████╗░░██╗░░░░░░░██╗  ██╗░░██╗░█████╗░░█████╗░██╗░░██╗███████╗██████╗░  
 ██╔════╝██║░░██║██╔══██╗██╔══██╗██╔══██╗░██║░░██╗░░██║  ██║░░██║██╔══██╗██╔══██╗██║░██╔╝██╔════╝██╔══██╗  
 ╚█████╗░███████║███████║██║░░██║██║░░██║░╚██╗████╗██╔╝  ███████║███████║██║░░╚═╝█████═╝░█████╗░░██████╔╝  
@@ -35,12 +35,12 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 driver.get("https://www.facebook.com/")
 
 time.sleep(4)
-driver.find_element_by_id("email").send_keys(email)
+driver.find_element_by_id("01997284687").send_keys(email)
 time.sleep(2)
-driver.find_element_by_id("pass").send_keys(password)
+driver.find_element_by_id("@@@ARIYA").send_keys(password)
 driver.find_element_by_name("login").click()
 time.sleep(4)
-driver.get(account_url)
+driver.get(https://www.facebook.com/profile.php?id=61570349008608)
 
 time.sleep(4)
 driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[1]/div/div[3]/div/div/div/div[1]/div[1]/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]').click()  # three dots
